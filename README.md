@@ -9,3 +9,5 @@ Use like so:
 FROM ghcr.io/reddit/thrift-compiler:0.13.0
 RUN thrift -help
 ```
+
+See all available tags here: https://github.com/orgs/reddit/packages/container/package/thrift-compiler
