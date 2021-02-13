@@ -32,4 +32,6 @@ ADD test.thrift /tmp/test.thrift
 RUN thrift --gen go --gen java --gen py --gen js -o /tmp/ /tmp/test.thrift && \
     rm -rf /tmp/gen-* /tmp/test.thrift
 
+WORKDIR /data
+
 ENTRYPOINT ["/usr/local/bin/thrift"]
