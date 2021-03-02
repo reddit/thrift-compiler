@@ -18,6 +18,7 @@ jobs:
         thrift-version:
           - "0.13.0"
           - "0.14.0"
+          - "0.14.1"
 
     steps:
       - name: Check out the repo
