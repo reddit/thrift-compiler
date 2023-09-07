@@ -1,9 +1,9 @@
 name: Publish Docker image
 
 on:
-  # update all docker images whenever we change this repo
-  push:
-    branches: [main]
+  # weekly builds for security updates
+  schedule:
+    - cron: "0 18 * * 3"
 
 jobs:
   push_to_registry:
