@@ -1,6 +1,6 @@
 FROM ubuntu:bionic AS builder
 
-ARG THRIFT_VERSION=0.20.0
+ARG THRIFT_VERSION=0.21.0
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && \
